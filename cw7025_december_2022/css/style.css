@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.entity {
+  position: fixed;
+}
+
+.bullet {
+  background-color: red;
+  width: 6px;
+  height: 6px;
+}
+
+.leader-board {
+  width: 50%;
+  height: 33%;
+  background-color: rgba(240, 248, 255, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+.leader-board p {
+  font-size: 18px ;
+  line-height: normal;
+  font-weight: 600;
+  color: #1b1b1d;
+}
